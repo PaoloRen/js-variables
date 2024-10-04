@@ -10,11 +10,11 @@ const numOnePlusNumTwo = numOne + numTwo;
 console.log(numOnePlusNumTwo); // Output: 24
 
 // 2. Imposta questa variabile come prodotto di numThree e numTwo
-const numThreeTimesNumTwo = NaN;
+const numThreeTimesNumTwo = numThree * numTwo;
 console.log(numThreeTimesNumTwo); // Output: 512
 
 // 3. Imposta questa variabile come divisione di numThree per numOne
-const numThreeDividedByNumOne = NaN;
+const numThreeDividedByNumOne = numThree / numOne;
 console.log(numThreeDividedByNumOne); // Output: 4
 
 // 4. Imposta questa variabile come differenza tra numThree e numOne
@@ -28,3 +28,7 @@ console.log(sum); // Output: 56
 // 6. Imposta questa variabile come somma di numOne, numTwo, numThree diviso numOne
 const numBytes = NaN;
 console.log(numBytes); // Output: 7
+
+
+//miei commenti
+//non ho capito bene come mai mi basta scrivere numOne + numTwo, nessun uso della interpolazione ${} e nessun uso del backtick ` e nessun utilizzo della console.log
