@@ -18,17 +18,18 @@ const numThreeDividedByNumOne = numThree / numOne;
 console.log(numThreeDividedByNumOne); // Output: 4
 
 // 4. Imposta questa variabile come differenza tra numThree e numOne
-const numThreeMinusNumOne = NaN;
+const numThreeMinusNumOne = numThree - numOne;
 console.log(numThreeMinusNumOne); // Output: 4
 
 // 5. Imposta questa variabile come somma di numOne, numTwo e numThree
-const sum = NaN;
+const sum = numOne + numTwo + numThree;
 console.log(sum); // Output: 56
 
 // 6. Imposta questa variabile come somma di numOne, numTwo, numThree diviso numOne
-const numBytes = NaN;
+const numBytes = sum / numOne;
 console.log(numBytes); // Output: 7
 
 
 //miei commenti
 //non ho capito bene come mai mi basta scrivere numOne + numTwo, nessun uso della interpolazione ${} e nessun uso del backtick ` e nessun utilizzo della console.log
+//nell ultimo esercizio ho provato a mettere numOne + numTwo + numThree / numOne ma non funziona perche mi divide numthree subito con numone c è un modo per dare un ordine tipo le parentesi?
