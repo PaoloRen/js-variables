@@ -20,7 +20,7 @@ const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'; // NON MODIFICARE QUESTA RIGA
 const firstName = 'Jane'; // NON MODIFICARE QUESTA RIGA
 const lastName = 'Smith'; // NON MODIFICARE QUESTA RIGA
 
-const fullName = null;
+const fullName = firstName + lastName;
 console.log(fullName); // Output: "Jane Smith"
 
 // 4. Imposta questa variabile utilizzando una proprietà
@@ -31,3 +31,4 @@ console.log(numberOfLettersInAlphabet); // Output: 26
 
 //miei commenti
 //mi stavo chiedendo se si possono richiamare piu elementi dallo stesso console.log?
+//non riesco a mettere lo spazio tra Jane e Smith nella console
